@@ -3,6 +3,172 @@
     src: url("fonts/Poppins/Poppins-Regular.ttf") format("truetype");
 }
 body{
-background-color: red;
+
 font-family: "Poppins", sans-serif;
 }
+header > div{
+    padding-top: 0px;
+    padding-right: 25px;
+    padding-left: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    border:1px solid lightgray;
+
+}
+nav{
+    width: 600px;
+}
+
+nav ul{
+    list-style: none;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.BlackHeart{
+    width: 20px;
+    margin-right: 1rem;
+}
+.Logo{
+    width: 40px;
+    margin-right: 50px;
+}
+
+.search-container{
+    display: 600;
+    align-items: center;
+}
+
+.search-bar{
+    height: 20px;
+    width: 600px;
+    border:none;
+    background-color: rgba(0,0,0,.05);
+    padding: 0.5rem;
+}
+
+
+.search-button{
+    display: inline-block;
+    padding: 10px 20px;
+   
+    background-color: #fb3b49;
+    color: white;
+    border: none;
+}
+.search-icon{
+    width: 20px;
+    
+    margin-left: 0.5rem;
+}
+.bottons-header{
+    text-decoration: none;
+    color: black;
+}
+
+#section-1{
+display: flex;
+flex-direction: column;
+align-items:center;
+justify-content: center;
+height: 600px;
+background-color: rgba(232,217,217,0.3);
+margin-bottom: 20px;
+
+}
+h1{
+    margin-bottom: 20px;
+    font-size: 64px;
+}
+
+.bottons{
+    display:flex;
+}
+
+.botton{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #fb3b49;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 8px 8px 0 rgba(251, 59, 73, 0.2);
+}
+article{
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+#section-2{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  
+  margin-top: 20px;
+}
+
+h2{
+    font-size: 36px;
+    background-color: rgba(255, 204, 53, 0.4);
+    transform:skew(9deg, 0deg);
+    font-style: italic;
+}
+ .hexagon{
+    max-width: 100%;
+    margin-top: 20px;
+    width: 200px;
+ }
+
+ #section-3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 200px;
+ }
+
+ .info-extra{
+    width: 200px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    text-align:center;
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+ }
+
+ .icon{
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    top:10px;
+    right: 70px;
+ }
+
+ h3{
+    color: #ED1C24;
+    margin-top: 40px;
+ }
+
+ p{
+    margin-bottom: 20px;
+ }
+
+ .button-org{
+  background-color: black;
+  color: #fff;
+  border: none;
+  padding: 10px 40px;
+  border-radius: 5px;
+  box-shadow: 8px 8px 0 rgba(128, 83, 35, 0.2);
+ }
+
